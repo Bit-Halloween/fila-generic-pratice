@@ -1,0 +1,14 @@
+public class Pedido {
+    private int numero;
+    private double valor;
+
+    public Pedido(int numero, double valor) {
+        this.numero = numero;
+        this.valor = valor;
+    }
+
+    @Override
+    public String toString() {
+        return "Pedido{numero=" + numero + ", valor=" + valor + "}";
+    }
+}
